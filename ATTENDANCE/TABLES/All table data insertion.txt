@@ -1,0 +1,61 @@
+INSERT INTO students (name, roll_no, department, year) VALUES
+('Harshit Khanna', 'CS202101', 'Computer Science', 3),
+('Aditi Sharma', 'CS202102', 'Computer Science', 3),
+('Rahul Verma', 'EC202103', 'Electronics', 2),
+('Sneha Patel', 'IT202104', 'Information Technology', 1),
+('Rohan Mehta', 'ME202105', 'Mechanical', 4),
+('Priya Nair', 'CS202106', 'Computer Science', 2),
+('Arjun Singh', 'EE202107', 'Electrical', 3),
+('Neha Gupta', 'IT202108', 'Information Technology', 4),
+('Vivek Kumar', 'EC202109', 'Electronics', 1),
+('Kriti Jain', 'CS202110', 'Computer Science', 3);
+
+
+
+
+INSERT INTO faculty (name, email, password) VALUES
+('Dr. Anil Joshi', 'anil.joshi@university.edu', 'faculty123'),
+('Prof. Meera Kapoor', 'meera.kapoor@university.edu', 'meera321'),
+('Dr. Rakesh Sharma', 'rakesh.sharma@university.edu', 'rakeshpass'),
+('Prof. Neha Tandon', 'neha.tandon@university.edu', 'nehapass'),
+('Dr. Amit Chauhan', 'amit.chauhan@university.edu', 'amit@2025');
+
+
+
+
+INSERT INTO subjects (subject_name, faculty_id) VALUES
+('Data Structures', 1),
+('Operating Systems', 2),
+('Database Management Systems', 3),
+('Computer Networks', 4),
+('Artificial Intelligence', 5),
+('Digital Electronics', 3),
+('Software Engineering', 1),
+('Web Development', 2),
+('Machine Learning', 5),
+('Microprocessors', 3);
+
+
+
+
+INSERT INTO attendance (student_id, subject_id, date, status) VALUES
+(1, 1, '2025-10-28', 'Present'),
+(2, 1, '2025-10-28', 'Absent'),
+(3, 2, '2025-10-28', 'Present'),
+(4, 3, '2025-10-28', 'Present'),
+(5, 4, '2025-10-28', 'Absent'),
+(6, 5, '2025-10-28', 'Present'),
+(7, 6, '2025-10-28', 'Present'),
+(8, 7, '2025-10-28', 'Absent'),
+(9, 8, '2025-10-28', 'Present'),
+(10, 9, '2025-10-28', 'Present'),
+(1, 2, '2025-10-29', 'Present'),
+(2, 2, '2025-10-29', 'Present'),
+(3, 3, '2025-10-29', 'Absent'),
+(4, 4, '2025-10-29', 'Present'),
+(5, 5, '2025-10-29', 'Present'),
+(6, 6, '2025-10-29', 'Absent'),
+(7, 7, '2025-10-29', 'Present'),
+(8, 8, '2025-10-29', 'Present'),
+(9, 9, '2025-10-29', 'Absent'),
+(10, 10, '2025-10-29', 'Present');
